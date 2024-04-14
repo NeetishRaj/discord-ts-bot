@@ -27,8 +27,10 @@ CHANNEL_ID="something like this => 2354235423452345234532"
 
 **Step 4:**
 
- Run 
- ```
+Please make sure Nodejs v20.9.0 or near is installed, then Run 
+
+ ```sh
+ npm install
  npm run start
  ```
 
@@ -38,3 +40,4 @@ CHANNEL_ID="something like this => 2354235423452345234532"
 ### References
 
 * Understanding the fetch API https://discord.js.org/docs/packages/discord.js/14.14.1/MessageManager:Class#fetch
+* Discord API documentation https://www.postman.com/discord-api/workspace/discord-api/overview
