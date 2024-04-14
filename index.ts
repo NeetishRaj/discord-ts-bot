@@ -16,7 +16,11 @@ client.on("ready", async () => {
   
   const channel: any = client.channels.cache.get(CHANNEL_ID ?? '');
 
-  await get_first_message_from_channel(channel);
+  const first_message = await get_first_message_from_channel(channel);
+
+  console.log(first_message);
+  
+  await client.destroy();
 
 });
 
